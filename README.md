@@ -1,15 +1,12 @@
 # Haoyi's Personal Website
 
 My simple website build by following the Plain-Academic.
-Below are the original README.md.
+Below are the original README Markdown content.
 
-# Plain-Academic Template
+### Plain-Academic Template
 A truly simple website template for academics. It was developed with simplicity in mind (both in terms of style and in code complexity).
 
 Just download the two files (index.html and photo.gif) and start editing straightaway.
-
-
-<img src="/img/frontpage.png" width="60%" height="60%">
 
 If you have suggestions for improvements feel free to make a pull request or open an issue.
 
