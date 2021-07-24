@@ -1,3 +1,8 @@
+# Haoyi's Personal Website
+
+My simple website build by following the Plain-Academic.
+Below are the original README.md.
+
 # Plain-Academic Template
 A truly simple website template for academics. It was developed with simplicity in mind (both in terms of style and in code complexity).
 
