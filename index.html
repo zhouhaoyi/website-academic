@@ -18,6 +18,17 @@
 </head>
 <body>
 
+<style>
+hline {
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: .5px;
+}
+</style>
 
 <!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -28,7 +39,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
+      </button>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +50,6 @@
           <li><a href="#publications">Publications</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#education">Others</a></li>
-				  <li><a href="#">CV</a></li>
 		  </ul>
 		</div>
 	  </div>
@@ -68,12 +78,13 @@
             <div class="col-md-4">
                 <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Haoyi Zhou</b></div><br>
                 <p><b>haoyi [at] buaa.edu.cn</b><br>
-                <p>zhouhaoyi1991 [at] Gmail<br>
+                <p>Room G503<br>
+                New Main Building<br>
+                </p>
                 <p>Beihang University<br>
                 37 Xueyuan Road<br>
                 Haidian District<br>
-                Beijing <br>
-                100191<br>
+                Beijing, 100191 <br>
                 P.R. China<br>
                 </p>
             </div>
@@ -89,7 +100,7 @@
 
             <!-- News -->
             <div class="col-md-8">
-              <h2 id="news">NEWs</h2>
+              <h3 id="news">NEWs</h3>
 
               <li class="news"> [07/2021] We won the <a href="https://bjhlwj.bupt.edu.cn/#/common/notice/detail?id=244">first prize</a> at the 7th China "Internet+" Innovation and Entrepreneurship Competition (Beijing)</li>
               <li class="news"> [07/2021] Awarded "<a href="https://www.worldaic.com.cn/newsdetail?uuid=0577d6d5c6f449abb8a4f7426f5d17da">AI Rising Star</a>" at the World Artificial Intelligence Conference (WAIC)</li>
@@ -107,17 +118,26 @@
 
             <!-- Publications -->
             <div class="col-md-8">
-              <h2 id="publications">Publications</h2>
+              <h3 id="publications">Publications</h3>
 
               <p>
                 <div class="paper-title">Triplet Attention: Rethinking the Similarity in Transformers, <i>KDD'2021</i></div>
-                <div class="paper-author"><b>Haoyi Zhou</b>, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li</div>
-                <div class="paper-link">[Paper][Slides][Code][Video]</div>
+                <div class="paper-author"><u>Haoyi Zhou</u>, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li</div>
+                <div class="paper-link">[Paper][Slides]
+                  <a href="https://github.com/zhouhaoyi/TripletAttention">[Code]</a>
+                  <a href="https://virtual.2021.kdd.org/paper_Research_Track-29.html">[Video]</a>
+                </div>
+              </p>
+
+              <p>
+                <div class="paper-title">POLLA: Enhancing the Local Structure Awareness in Long Sequence Spatial-temporal Modeling, <i>ACM TIST 2021</i></div>
+                <div class="paper-author"><u>Haoyi Zhou</u>, Hao Peng, Jieqi Peng, Shuai Zhang, Jianxin Li</div>
+                <div class="paper-link">[Paper][Slides][Code]</div>
               </p>
 
               <p>
                 <div class="paper-title">Informer: Beyond Efficient Transformer for Long Sequence Timer-Series Forecasting, <i>AAAI'2021</i></div>
-                <div class="paper-author"><b>Haoyi Zhou</b>, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang</div>
+                <div class="paper-author"><u>Haoyi Zhou</u>, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang</div>
                 <div class="paper-link">
                   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17325/17132">[Paper]</a>
                   <a href="https://arxiv.org/pdf/2012.07436.pdf">[arXiv]</a>
@@ -132,14 +152,8 @@
               </p>
 
               <p>
-                <div class="paper-title">POLLA: Enhancing the Local Structure Awareness in Long Sequence Spatial-temporal Modeling, <i>ACM TIST 2021</i></div>
-                <div class="paper-author"><b>Haoyi Zhou</b>, Hao Peng, Jieqi Peng, Shuai Zhang, Jianxin Li</div>
-                <div class="paper-link">[Paper][Slides][Code]</div>
-              </p>
-
-              <p>
                 <div class="paper-title">RoSearch: Search for Robust Student Architectures When Distilling Pre-trained Language Models, <i>arXiv 2021</i></div>
-                <div class="paper-author">Xin Guo, Jianlei Yang, <b>Haoyi Zhou</b>, Xucheng Ye, Jianxin Li</div>
+                <div class="paper-author">Xin Guo, Jianlei Yang, <u>Haoyi Zhou</u>, Xucheng Ye, Jianxin Li</div>
                 <div class="paper-link">
                   <a href="https://arxiv.org/pdf/2106.03613.pdf">[Paper]</a>
                   <a href="#">[Slides]</a>
@@ -149,7 +163,7 @@
 
               <p>
                 <div class="paper-title">Osprey: A Fast and Accurate Patch Presence Test Framework for Binaries, <i>Computer Communications 2021</i></div>
-                <div class="paper-author">Peiyuan Sun, Qiben Yan, <b>Haoyi Zhou*</b>, Jianxin Li</div>
+                <div class="paper-author">Peiyuan Sun, Qiben Yan, <u>Haoyi Zhou*</u>, Jianxin Li</div>
                 <div class="paper-link">
                   <a href="https://www.sciencedirect.com/science/article/abs/pii/S0140366421001079">[Paper]</a>
                   <a href="https://dblp.uni-trier.de/rec/journals/comcom/SunYZL21.html?view=bibtex">[BibTex]</a>
@@ -158,7 +172,7 @@
 
               <p>
                 <div class="paper-title">Differentially-private Federated Neural Architecture Search, <i>arXiv 2020</i></div>
-                <div class="paper-author">Ishika Singh, <b>Haoyi Zhou</b>, Kunlin Yang, Meng Ding, Bill Lin, Pengtao Xie</div>
+                <div class="paper-author">Ishika Singh, <u>Haoyi Zhou</u>, Kunlin Yang, Meng Ding, Bill Lin, Pengtao Xie</div>
                 <div class="paper-link">
                   <a href="https://arxiv.org/pdf/2006.10559.pdf">[Paper]</a>
                   <a href="https://github.com/UCSD-AI4H/DP-FNAS">[Code]</a>
@@ -168,7 +182,7 @@
 
               <p>
                 <div class="paper-title">A Bisubmodular Approach to Event Detection and Prediction in Multivariate Social Graphs, <i>IEEE TCSS 2020</i></div>
-                <div class="paper-author">Shuai Zhang, <b>Haoyi Zhou</b>, Feng Chen, Jianxin Li</div>
+                <div class="paper-author">Shuai Zhang, <u>Haoyi Zhou</u>, Feng Chen, Jianxin Li</div>
                 <div class="paper-link">
                   <a href="https://ieeexplore.ieee.org/document/9011569">[Paper]</a>
                   <a href="https://dblp.uni-trier.de/rec/journals/tcss/ZhangZCL21.html?view=bibtex">[BibTex]</a>
@@ -177,7 +191,7 @@
 
               <p>
                 <div class="paper-title">A Time-Sensitive Hybrid Learning Model for Patient Subgrouping, <i>IJCNN'2018</i></div>
-                <div class="paper-author">Yingchun Zhang, <b>Haoyi Zhou</b>, Jianxin Li, Wanlu Sun, Yahong Chen</div>
+                <div class="paper-author">Yingchun Zhang, <u>Haoyi Zhou</u>, Jianxin Li, Wanlu Sun, Yahong Chen</div>
                 <div class="paper-link">
                   <a href="https://ieeexplore.ieee.org/abstract/document/8488991">[Paper]</a>
                   <a href="https://dblp.uni-trier.de/rec/conf/ijcnn/ZhangZLSC18.html?view=bibtex">[BibTex]</a>
@@ -186,7 +200,7 @@
 
               <p>
                 <div class="paper-title">Improving the Generalization Performance of Multi-class SVM via Angular Regularization, <i>IJCAI'2017</i></div>
-                <div class="paper-author">Jianxin Li, <b>Haoyi Zhou</b>, Pengtao Xie, Yingchun Zhang</div>
+                <div class="paper-author">Jianxin Li, <u>Haoyi Zhou</u>, Pengtao Xie, Yingchun Zhang</div>
                 <div class="paper-link">
                   <a href="https://www.ijcai.org/Proceedings/2017/0296.pdf">[Paper]</a>
                   <a href="https://github.com/zhouhaoyi/download/raw/main/resource/2017_IJCAI_Diversity_Poster.pdf">[Poster]</a>
@@ -197,7 +211,7 @@
 
               <p>
                 <div class="paper-title">Stacked Kernel Network, <i>arXiv 2017</i></div>
-                <div class="paper-author">Shuai Zhang, Jianxin Li, Pengtao Xie, Yingchun Zhang, Minglai Shao, <b>Haoyi Zhou</b>, Mengyi Yan</div>
+                <div class="paper-author">Shuai Zhang, Jianxin Li, Pengtao Xie, Yingchun Zhang, Minglai Shao, <u>Haoyi Zhou</u>, Mengyi Yan</div>
                 <div class="paper-link">
                   <a href="https://arxiv.org/pdf/1711.09219.pdf">[Paper]</a>
                   <a href="https://dblp.uni-trier.de/rec/journals/corr/abs-1711-09219.html?view=bibtex">[BibTex]</a>
@@ -206,7 +220,7 @@
 
               <p>
                 <div class="paper-title">A Large Margin Learning Method for Matching Images of Natural Objects with Different Dimensions, <i>CVPREI 2016</i></div>
-                <div class="paper-author"><b>Haoyi Zhou</b>, Jun Zhou, Haichuan Yang, Cheng Yan, Xiao Bai and Yunlu Liu</div>
+                <div class="paper-author"><u>Haoyi Zhou</u>, Jun Zhou, Haichuan Yang, Cheng Yan, Xiao Bai and Yunlu Liu</div>
                 <div class="paper-link">
                   <a href="https://www.igi-global.com/chapter/a-large-margin-learning-method-for-matching-images-of-natural-objects-with-different-dimensions/222916">[Paper]</a>
                   <a href="#">[BibTex]</a>
@@ -219,13 +233,13 @@
 
             <!-- Projects -->
             <div class="col-md-10">
-              <h2 id="projects">Projects</h2>
+              <h3 id="projects">Projects</h3>
               <p>Coming soon (around Sep).</p>
             </div>
 
             <!-- Education -->
             <div class="col-md-10">
-              <h2 id="education">Education</h2>
+              <h3 id="education">Education</h3>
 
               <strong>PhD in Computer Software and Theory</strong><br />
               <p>
@@ -253,7 +267,7 @@
 
             <!-- Talks -->
             <div class="col-md-10">
-              <h2 id="talks">Talks</h2>
+              <h3 id="talks">Talks</h3>
 
               <p><b>Oral Presentation</b>: Triplet Attention: Rethinking the similarity in Transformers, August 17, KDD 2021 </p>
               <p><b>Invited Talk</b>: <i>长序列预测向左，计算复杂度向右</i>, Tianjin University (北洋智算论坛), June 6, 2021
@@ -266,7 +280,7 @@
 
             <!-- Selected Media -->
             <div class="col-md-10">
-              <h2 id="slected_media">Selected Media</h2>
+              <h3 id="slected_media">Selected Media</h3>
 
               <p>LibHunt. <i>Top 22 Python time-series Projects (Ranked 4th)</i>, June 1, 2021 </p>
               <p>Topbots. <i>Top Research Papers With Business Applications</i>, April 12, 2021</p>
@@ -284,7 +298,7 @@
 
             <!-- Academic Service -->
             <div class="col-md-10">
-              <h2 id="academic_service">Academic Service</h2>
+              <h3 id="academic_service">Academic Service</h3>
 
               <strong>Journal Reviewer</strong><br/>
                 <ul>
@@ -310,14 +324,16 @@
 
         </div>
 
+        <hline></hline>
+
+        <!-- Other people may like it too! -->
+        <div style="height: 3vh;">
+          <p style="font-size:0.9em; float:right; color:#787878;"> Thanks to <u> <a style="color:#787878" target="_blank" href="https://mavroud.is/">Vasilios Mavroudis</a></u> for the <u><a style="color:#787878" target="_blank" href="https://github.com/mavroudisv/plain-academic">template</a></u>! The website source is <u><a style="color:#787878" target="_blank" href="https://github.com/zhouhaoyi/website-academic">here</a></u>.</p>
+        </div>
 
     </div>
     <!-- /.container -->
 
-    <!-- Other people may like it too! -->
-    <div style="height: 3vh;">
-      <p style="font-size:0.9em; float:right; color:#787878;"> Thanks to <u> <a style="color:#787878" target="_blank" href="https://mavroud.is/">Vasilios Mavroudis</a></u> for the <u><a style="color:#787878" target="_blank" href="https://github.com/mavroudisv/plain-academic">template</a></u>!</p>
-    </div>
 
 </body>
 
