@@ -1,6 +1,7 @@
 # Haoyi's Personal Website
 
-My simple website build by following the Plain-Academic.
+My simple website build based on the Plain-Academic project. I will try to keep it up to date.
+
 Below are the original README Markdown content.
 
 ### Plain-Academic Template
