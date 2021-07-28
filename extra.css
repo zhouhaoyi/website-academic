@@ -5,6 +5,17 @@
  * Last Modified Date: 28.07.2021
  */
 
+.container {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.container::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+  display: none;
+}
+
 hline {
     display: block;
     margin-top: 2.5em;
@@ -53,14 +64,4 @@ hline {
 #button.show {
   opacity: 1;
   visibility: visible;
-}
-
-.container {
-  overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-}
-.container::-webkit-scrollbar { /* WebKit */
-  width: 0;
-  height: 0;
 }
