@@ -5,12 +5,12 @@
  * Last Modified Date: 28.07.2021
  */
 
-.container {
+body {
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
-.container::-webkit-scrollbar { /* WebKit */
+body::-webkit-scrollbar { /* WebKit */
   width: 0;
   height: 0;
   display: none;
