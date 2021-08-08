@@ -16,6 +16,10 @@ body::-webkit-scrollbar { /* WebKit */
   display: none;
 }
 
+.hlText {
+  color: red;
+}
+
 hline {
     display: block;
     margin-top: 2.5em;
