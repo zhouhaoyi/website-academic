@@ -136,3 +136,4 @@ dmypy.json
 
 # Project
 learn_frame.code-workspace
+.history/
